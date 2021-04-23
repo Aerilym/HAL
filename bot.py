@@ -73,7 +73,7 @@ async def randomgif(ctx, *args):
 
 
 
-@bot.command(name='gifblast', help='search on giphy and returns a number of random gifs')
+@bot.command(name='gifblast', help='search on giphy and returns a random number of random gifs')
 async def gifblast(ctx, *args):
     terms = ''
     for n in args:
